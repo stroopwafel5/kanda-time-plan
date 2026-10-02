@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+
+#shey {
+
+  background-color: lightgreen;
+  margin-bottom: 20px;
+  width: 80%;
+  float: center;
+  border-radius: 5px;
+  border-color: black;
+
+}
+
+.small {
+  font-size:12px;
+  font-family:'Segoe UI';
+  text-align:center;
+  
+}
+
+.big {
+  
+  font-size:20px;
+  font-weight: bold;
+  font-family:'Segoe UI';
+  text-align:center;
+  margin-bottom:5%;
+}
+
+.date {
+  
+  font-size:20px;
+  font-weight: bold;
+  font-family:'Segoe UI';
+  text-align:center;
+  margin-top: 5%;
+}
+
+Button {
+
+  align-items:center;
+}
+
